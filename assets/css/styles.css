@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #4756df;
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+/* CSS Resets end */
+
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  color: var(--primary-color);
+}
+
+nav a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+nav a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+/* Navbar ends */
+
+/* Hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.hero img {
+  height: 35.5rem;
+  width: 35.5rem;
+}
+
+.bio {
+  width: 27rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+}
+
+.bio-title {
+  margin-bottom: var(--bottom-margin);
+  font-size: 3.5rem;
+}
+
+.bio-text {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+/* Hero section ends */
+
+/* More about */
+.more-about {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.more-about p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
+/* More about ends */
+
+/* Skills section */
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem 1.25rem 0.25rem 1.25rem;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-card {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-svg {
+  width: 8.875rem;
+  height: 8.25rem;
+}
+
+.icon-text {
+  display: block;
+  font-size: 1.2rem;
+  color: #333;
+}
+/* Skills section ends */
+
+/* Projects section */
+.projects {
+  margin-top: 2rem;
+  padding: 32px 0;
+  background-color: var(--bg-color);
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 80%;
+  margin: 2rem auto;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.project-card {
+  width: 35%;
+  margin: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  text-align: center;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+  font-size: 2rem;
+}
+
+.project-tech {
+  font-size: 1rem;
+  font-weight: bold;
+  color: grey;
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+  padding: 0.4rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.project-link {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.projects hr {
+  max-width: 85%;
+  margin: auto;
+}
+/* Projects section ends */
+
+/* Social buttons */
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+/* Social button ends */
+
+/* Scroll to top button */
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
+/* Scroll to top button ends */
+
+/* Footer section */
+footer {
+  background-color: var(--bg-color);
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
+/* Footer section ends */
