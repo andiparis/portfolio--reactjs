@@ -49,14 +49,14 @@ body {
 
 /* Navbar */
 nav {
-  position: sticky;
+  padding: 1.5rem 3.5rem;
   top: 0;
   left: 0;
+  position: sticky;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -75,8 +75,8 @@ nav a:hover {
 }
 
 nav ul {
-  display: flex;
   gap: 1.9rem;
+  display: flex;
 }
 
 nav ul li {
@@ -84,12 +84,12 @@ nav ul li {
 }
 
 .burger-menu {
-  color: var(--primary-color);
-  font-size: 2rem;
   border: 0;
-  background-color: transparent;
-  cursor: pointer;
   display: none;
+  font-size: 2rem;
+  background-color: transparent;
+  color: var(--primary-color);
+  cursor: pointer;
 }
 /* Navbar ends */
 
@@ -98,14 +98,14 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  gap: 2.5rem;
 }
 
-.hero img {
-  height: 35.5rem;
+.hero-img {
   width: 35.5rem;
+  height: 35.5rem;
 }
 
 .bio {
@@ -120,7 +120,6 @@ nav ul li {
 }
 
 .bio-text {
-  line-height: var(--line-height);
   padding: 0.3rem 0;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -129,8 +128,8 @@ nav ul li {
 
 /* More about */
 .more-about {
-  background-color: var(--bg-color);
   padding: 1rem 6rem;
+  background-color: var(--bg-color);
 }
 
 .more-about h2 {
@@ -139,8 +138,8 @@ nav ul li {
 }
 
 .more-about p {
-  line-height: var(--line-height);
   padding: 0.4rem;
+  line-height: var(--line-height);
 }
 /* More about ends */
 
@@ -148,8 +147,8 @@ nav ul li {
 .skills {
   max-width: 68.75rem;
   margin: auto;
-  text-align: center;
   margin-top: 2.5rem;
+  text-align: center;
 }
 
 .skill-header {
@@ -157,20 +156,17 @@ nav ul li {
   font-size: 3rem;
 }
 
-.skills-wrapper img {
-  padding: 1.25rem 1.25rem 0.25rem 1.25rem;
-}
-
 .skills-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .icon-card {
-  background-color: #fff;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -182,6 +178,7 @@ nav ul li {
 .icon-svg {
   width: 8.875rem;
   height: 8.25rem;
+  padding: 1.25rem 1.25rem 0.25rem 1.25rem;
 }
 
 .icon-text {
@@ -193,23 +190,23 @@ nav ul li {
 
 /* Projects section */
 .projects {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding: 32px 0;
   background-color: var(--bg-color);
 }
 
 .projects-title {
-  text-align: center;
   font-size: 3rem;
+  text-align: center;
 }
 
 .projects-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
   max-width: 80%;
   margin: 2rem auto;
+  gap: 2.5rem;
 }
 
 .project-pic {
@@ -241,8 +238,8 @@ nav ul li {
 .project-details {
   margin-bottom: var(--bottom-margin);
   padding: 0.4rem;
-  text-align: left;
   font-size: 1.5rem;
+  text-align: left;
 }
 
 .project-link {
