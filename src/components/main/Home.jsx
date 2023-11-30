@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import Navigation from './Navigation';
-import Hero from '../bio/hero';
+import Hero from '../bio/Hero';
 import SkillList from '../skills/SkillList';
 import ProjectList from '../projects/ProjectList';
 import SocialList from '../socials/SocialList';
