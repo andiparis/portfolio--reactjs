@@ -10,10 +10,10 @@ function SocialItem({ name, link, img }) {
   );
 }
 
-// SocialItem.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   link: PropTypes.string.isRequired,
-//   img: PropTypes.string.isRequired,
-// };
+SocialItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+};
 
 export default SocialItem;
