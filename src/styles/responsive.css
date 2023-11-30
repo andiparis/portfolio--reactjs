@@ -151,9 +151,9 @@
     font-size: 1.75rem;
   }
 
-  .projects-container {
-    gap: 1rem;
+  .projects-card {
     flex-direction: column;
+    gap: 1rem;
   }
 
   .project-card {
