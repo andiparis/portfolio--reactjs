@@ -2,7 +2,7 @@ const getHeroData = () => {
   return {
     id: 1,
     header: "Hi, I'm Andi 👋",
-    body: 'A Web Developer experienced in building Web applications with PHP / CodeIgniter / JavaScript / ReactJS and some other cool technologies.',
+    body: 'A Web Developer experienced in building Web applications with CodeIgniter / Laravel / NodeJS / ReactJS and some other cool technologies.',
     img: '/assets/images/hero.svg',
   };
 };
@@ -36,21 +36,26 @@ const getSkillsData = () => {
     },
     {
       id: 6,
+      name: 'Laravel',
+      img: '/assets/icons/laravel.svg',
+    },
+    {
+      id: 7,
       name: 'NodeJS',
       img: '/assets/icons/nodejs.svg',
     },
     {
-      id: 7,
+      id: 8,
       name: 'ReactJS',
       img: '/assets/icons/react.svg',
     },
     {
-      id: 8,
+      id: 89,
       name: 'Git',
       img: '/assets/icons/git.svg',
     },
     {
-      id: 9,
+      id: 10,
       name: 'GitHub',
       img: '/assets/icons/github.svg',
     },
@@ -116,15 +121,27 @@ const getSocialsData = () => {
   return [
     {
       id: 1,
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/andi-paris-bachtiar',
-      img: '/assets/icons/linkedin.gif',
+      name: 'WhatsApp',
+      link: 'https://wa.me/6281539473834',
+      img: '/assets/icons/whatsapp.svg',
     },
     {
       id: 2,
+      name: 'Email',
+      link: 'mailto:andiparis02@gmail.com?',
+      img: '/assets/icons/email.svg',
+    },
+    {
+      id: 3,
+      name: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/andi-paris-bachtiar',
+      img: '/assets/icons/linkedin.svg',
+    },
+    {
+      id: 4,
       name: 'GitHub',
       link: 'https://github.com/andiparis',
-      img: '/assets/icons/github.gif',
+      img: '/assets/icons/github.svg',
     },
   ];
 };
