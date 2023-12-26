@@ -29,14 +29,25 @@
     font-size: 2.25rem;
   }
 
-  .icon {
-    width: 10.875rem;
-    height: 10.25rem;
+  .icon-sm {
+    width: 8rem;
+    height: 8rem;
   }
 
-  .icon-svg {
-    width: 7.875rem;
-    height: 7.25rem;
+  .icon-md {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .icon-svg-sm {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+  }
+
+  .icon-svg-md {
+    width: 7rem;
+    height: 7rem;
   }
 
   .projects-title {
@@ -132,7 +143,7 @@
     font-size: 1.75rem;
   }
 
-  .icon {
+  .icon-md {
     width: 5.875rem;
     height: 5.25rem;
   }
@@ -141,6 +152,27 @@
     width: 3.875rem;
     height: 3.25rem;
     padding: 0;
+  }
+
+  .icon-sm {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .icon-md {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .icon-svg-sm {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  }
+
+  .icon-svg-md {
+    width: 5rem;
+    height: 5rem;
   }
 
   .icon-text {

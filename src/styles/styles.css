@@ -170,15 +170,26 @@ nav ul li {
   text-align: center;
 }
 
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
+.icon-sm {
+  width: 9rem;
+  height: 9rem;
 }
 
-.icon-svg {
-  width: 8.875rem;
-  height: 8.25rem;
-  padding: 1.25rem 1.25rem 0.25rem 1.25rem;
+.icon-md {
+  width: 11rem;
+  height: 11rem;
+}
+
+.icon-svg-sm {
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem 1rem 0.25rem 1rem;
+}
+
+.icon-svg-md {
+  width: 8rem;
+  height: 8rem;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
 }
 
 .icon-text {
