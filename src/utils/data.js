@@ -13,51 +13,61 @@ const getSkillsData = () => {
       id: 1,
       name: 'HTML5',
       img: '/assets/icons/html5.svg',
+      primary: false,
     },
     {
       id: 2,
       name: 'CSS3',
       img: '/assets/icons/css3.svg',
+      primary: false,
     },
     {
       id: 3,
       name: 'JavaScript',
       img: '/assets/icons/javascript.svg',
+      primary: true,
     },
     {
       id: 4,
       name: 'PHP',
       img: '/assets/icons/php.svg',
+      primary: true,
     },
     {
       id: 5,
       name: 'CodeIgniter',
       img: '/assets/icons/codeigniter.svg',
+      primary: false,
     },
     {
       id: 6,
       name: 'Laravel',
       img: '/assets/icons/laravel.svg',
+      primary: false,
     },
     {
       id: 7,
       name: 'NodeJS',
       img: '/assets/icons/nodejs.svg',
+      primary: false,
     },
     {
       id: 8,
       name: 'ReactJS',
       img: '/assets/icons/react.svg',
+      primary: false,
     },
     {
       id: 89,
       name: 'Git',
       img: '/assets/icons/git.svg',
+      primary: false,
     },
     {
       id: 10,
       name: 'GitHub',
       img: '/assets/icons/github.svg',
+      primary: false,
     },
   ];
 };
