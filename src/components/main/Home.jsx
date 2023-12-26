@@ -4,7 +4,6 @@ import Navigation from './Navigation';
 import Hero from '../bio/Hero';
 import SkillList from '../skills/SkillList';
 import ProjectList from '../projects/ProjectList';
-import SocialList from '../socials/SocialList';
 import Scroll from './Scroll';
 import Footer from './Footer';
 import {
@@ -23,10 +22,9 @@ function Home() {
   return (
     <div>
       <Navigation />
-      <Hero hero={hero} />
+      <Hero hero={hero} socials={socials} />
       <SkillList skills={skills} />
       <ProjectList projects={projects} />
-      <SocialList socials={socials} />
       <Scroll />
       <Footer />
     </div>
