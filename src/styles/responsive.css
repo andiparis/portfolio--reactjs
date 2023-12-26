@@ -126,17 +126,9 @@
     font-size: 1rem;
   }
 
-  .more-about {
-    margin-top: 2rem;
-    padding: 1rem 3.5rem;
-  }
-
-  .more-about h2 {
-    text-align: center;
-  }
-
-  .more-about p {
-    text-align: justify;
+  .socials {
+    justify-content: center;
+    align-items: center;
   }
 
   .skill-header {
@@ -222,6 +214,11 @@
 
   .bio-text {
     line-height: 1.5rem;
+  }
+
+  .socicon {
+    width: 2rem;
+    height: 2rem;
   }
 
   .up-arrow {

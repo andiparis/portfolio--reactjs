@@ -126,23 +126,6 @@ nav ul li {
 }
 /* Hero section ends */
 
-/* More about */
-.more-about {
-  padding: 1rem 6rem;
-  background-color: var(--bg-color);
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  padding: 0.4rem;
-  line-height: var(--line-height);
-}
-/* More about ends */
-
 /* Skills section */
 .skills {
   max-width: 68.75rem;
@@ -271,15 +254,13 @@ nav ul li {
 /* Social buttons */
 .socials {
   display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  bottom: 50%;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
 }
 
 .socicon {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 /* Social button ends */
 
