@@ -10,6 +10,7 @@ function Navbar() {
   const [navColour, updateNavColour] = useState(false);
 
   const scrollHandler = () => {
+    // When scrolling apply "sticky" class, otherwise just apply "navbar" class
     if (window.scrollY >= 20) {
       updateNavColour(true);
     } else {
@@ -31,6 +32,7 @@ function Navbar() {
         <NavBar.Brand href="/" className="d-flex">
           <img src={logo} alt="logo" className="img-fluid logo" />
         </NavBar.Brand>
+        {/* When the navbar toggle is clicked, change the expandNav value to true or false */}
         <NavBar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -44,6 +46,7 @@ function Navbar() {
         <NavBar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
+              {/* After clicked the nav link, back to collapse the navbar */}
               <Nav.Link
                 as={Link}
                 to="/"
