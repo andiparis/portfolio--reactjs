@@ -5,67 +5,59 @@ const getHeroData = () => {
   };
 };
 
-const getSkillsData = () => {
+const getTechStacksData = () => {
   return [
     {
       id: 1,
-      name: 'HTML5',
-      img: '/assets/icons/html5.svg',
-      primary: false,
+      name: 'CSS3',
     },
     {
       id: 2,
-      name: 'CSS3',
-      img: '/assets/icons/css3.svg',
-      primary: false,
+      name: 'PHP',
     },
     {
       id: 3,
       name: 'JavaScript',
-      img: '/assets/icons/javascript.svg',
-      primary: true,
     },
     {
       id: 4,
-      name: 'PHP',
-      img: '/assets/icons/php.svg',
-      primary: true,
+      name: 'Java',
     },
     {
       id: 5,
       name: 'CodeIgniter',
-      img: '/assets/icons/codeigniter.svg',
-      primary: false,
     },
     {
       id: 6,
       name: 'Laravel',
-      img: '/assets/icons/laravel.svg',
-      primary: false,
     },
     {
       id: 7,
       name: 'NodeJS',
-      img: '/assets/icons/nodejs.svg',
-      primary: false,
     },
     {
       id: 8,
       name: 'ReactJS',
-      img: '/assets/icons/react.svg',
-      primary: false,
     },
     {
-      id: 89,
-      name: 'Git',
-      img: '/assets/icons/git.svg',
-      primary: false,
+      id: 9,
+      name: 'Bootstrap',
     },
     {
       id: 10,
+      name: 'MUI',
+    },
+    {
+      id: 11,
+      name: 'MySQL',
+    },
+    {
+      id: 12,
+      name: 'Git',
+    },
+    {
+      id: 13,
       name: 'GitHub',
-      img: '/assets/icons/github.svg',
-      primary: false,
     },
   ];
 };
@@ -131,33 +123,28 @@ const getSocialsData = () => {
       id: 1,
       name: 'WhatsApp',
       link: 'https://wa.me/6281539473834',
-      img: '/assets/icons/whatsapp.svg',
     },
     {
       id: 2,
       name: 'Email',
       link: 'mailto:andiparis02@gmail.com?',
-      img: '/assets/icons/email.svg',
     },
     {
       id: 3,
       name: 'LinkedIn',
       link: 'https://www.linkedin.com/in/andi-paris-bachtiar',
-      img: '/assets/icons/linkedin.svg',
     },
     {
       id: 4,
       name: 'GitHub',
       link: 'https://github.com/andiparis',
-      img: '/assets/icons/github.svg',
     },
     {
       id: 5,
       name: 'StackOverflow',
       link: 'https://stackoverflow.com/users/22855844/andi-paris-bachtiar',
-      img: '/assets/icons/github.svg',
     },
   ];
 };
 
-export { getHeroData, getSkillsData, getProjectsData, getSocialsData };
+export { getHeroData, getTechStacksData, getProjectsData, getSocialsData };
