@@ -96,7 +96,7 @@ const getProjectsData = () => {
   return [
     {
       id: 1,
-      name: 'Accounting App',
+      name: 'Accountant App',
       tech: ['CodeIgniter', 'STISLA', 'JavaScript'],
       description:
         'The accounting app as the name suggests, provides features that can help manage accounting transactions. In this app, user can also print every existing report. This app was built using CodeIgniter and STISLA templates.',
