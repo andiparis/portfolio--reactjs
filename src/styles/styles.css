@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -12,6 +14,14 @@ html {
   );
 
   --imp-text-color: #c770f0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
 
 .purple {
@@ -79,7 +89,7 @@ button:focus {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+  /* backdrop-filter: blur(15px) !important; */
 }
 
 .navbar {
@@ -257,7 +267,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(../assets/background.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -277,7 +287,7 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 50px !important;
 }
 
 .main-name {
@@ -331,9 +341,8 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
 }
 
 .home-about-social {
