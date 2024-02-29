@@ -1,8 +1,6 @@
 const getHeroData = () => {
   return {
     id: 1,
-    header: "Hi, I'm Andi 👋",
-    body: 'A Web Developer experienced in building Web applications with CodeIgniter / Laravel / NodeJS / ReactJS and some other cool technologies.',
     img: '/assets/images/hero.svg',
   };
 };
@@ -151,6 +149,12 @@ const getSocialsData = () => {
       id: 4,
       name: 'GitHub',
       link: 'https://github.com/andiparis',
+      img: '/assets/icons/github.svg',
+    },
+    {
+      id: 5,
+      name: 'StackOverflow',
+      link: 'https://stackoverflow.com/users/22855844/andi-paris-bachtiar',
       img: '/assets/icons/github.svg',
     },
   ];
