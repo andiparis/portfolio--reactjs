@@ -267,7 +267,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(../assets/background.jpg);
+  /* background-image: var(--image-gradient), url(../assets/background.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -335,7 +335,6 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -347,7 +346,6 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
   color: white !important;
 }
 
@@ -544,7 +542,9 @@ button:focus {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
+  margin-bottom: 1.5rem !important;
   padding-top: 10px !important;
+  text-align: center;
 }
 
 /* --------- */
@@ -561,17 +561,26 @@ button:focus {
 
 .tech-icons {
   font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
+  margin: 1.5rem !important;
+  padding: 1rem !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  color: #ffffff !important;
+}
+
+.stacks-text {
+  font-size: 1rem !important;
 }
 
 @media (max-width: 767px) {
