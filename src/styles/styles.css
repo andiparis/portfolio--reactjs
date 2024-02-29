@@ -89,7 +89,7 @@ button:focus {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  /* backdrop-filter: blur(15px) !important; */
+  backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
@@ -473,6 +473,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  text-align: center !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -514,7 +515,7 @@ button:focus {
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 10px !important;
+  border-radius: 1.5rem !important;
 }
 
 .blog-img {
