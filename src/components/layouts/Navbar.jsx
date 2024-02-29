@@ -71,7 +71,7 @@ function Navbar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -81,7 +81,7 @@ function Navbar() {
               >
                 <CgFileDocument style={{ marginBottom: '2px' }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </NavBar.Collapse>
       </Container>
