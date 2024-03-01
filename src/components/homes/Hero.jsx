@@ -7,7 +7,7 @@ function Hero({ hero }) {
   return (
     <Container className="home-content">
       <Row>
-        <Col className="home-header" md={7}>
+        <Col md={7} className="align-self-center">
           <h1 className="heading" style={{ paddingBottom: 15 }}>
             Hi there!{' '}
             <span className="wave" role="img" aria-labelledby="wave">
@@ -21,12 +21,13 @@ function Hero({ hero }) {
             <Occupations />
           </div>
         </Col>
-        <Col md={5} style={{ paddingBottom: 20 }}>
+        <Col md={5}>
           <img
             src={hero.img}
             alt="Hero"
             className="img-fluid"
-            style={{ maxHeight: '450px' }}
+            loading="lazy"
+            style={{ maxHeight: '500px' }}
           />
         </Col>
       </Row>

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Card, Button, Stack, Badge } from 'react-bootstrap';
 import { SiGithub } from 'react-icons/si';
 import { CgWebsite } from 'react-icons/cg';
@@ -6,13 +7,19 @@ import { CgWebsite } from 'react-icons/cg';
 function ProjectCard(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img src={props.img} alt="Project Image" variant="top" />
+      <Card.Img
+        src={props.img}
+        alt="Project Image"
+        variant="top"
+        loading="lazy"
+      />
       <Card.Body>
         <Card.Title>{props.name}</Card.Title>
         <Stack
           direction="horizontal"
           gap={2}
-          className="justify-content-center m-2"
+          className="justify-content-center m-3"
+          style={{ flexWrap: 'wrap' }}
         >
           {props.tech.map((tech) => (
             <Badge pill bg="warning" text="dark">
@@ -43,5 +50,9 @@ function ProjectCard(props) {
     </Card>
   );
 }
+
+ProjectCard.propTypes = {
+  props: PropTypes.array.isRequired,
+};
 
 export default ProjectCard;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Nav, Navbar as NavBar } from 'react-bootstrap';
 import { AiOutlineHome, AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { CgFileDocument } from 'react-icons/cg';
-import logo from '../../assets/icons/logo.jpg';
+import logo from '../../assets/icons/logo.png';
 
 function Navbar() {
   const [expandNav, updateExpandNav] = useState(false);
