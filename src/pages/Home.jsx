@@ -18,9 +18,7 @@ function Home() {
       <Container id="home" className="home-section" fluid>
         <Particle />
         <Hero hero={hero} />
-      </Container>
 
-      <Container id="about" className="home-about-section" fluid>
         <h1 className="project-heading">
           <span className="purple">About</span> Me
         </h1>

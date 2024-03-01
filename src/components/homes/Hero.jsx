@@ -8,7 +8,7 @@ function Hero({ hero }) {
     <Container className="home-content">
       <Row>
         <Col md={7} className="align-self-center">
-          <h1 className="heading" style={{ paddingBottom: 15 }}>
+          <h1 className="heading" style={{ paddingBottom: '15px' }}>
             Hi there!{' '}
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
@@ -17,7 +17,7 @@ function Hero({ hero }) {
           <h1 className="heading-name">
             I'm <strong className="main-name">Andi Paris Bachtiar</strong>
           </h1>
-          <div style={{ padding: 50, textAlign: 'left' }}>
+          <div style={{ padding: '50px', textAlign: 'left' }}>
             <Occupations />
           </div>
         </Col>
