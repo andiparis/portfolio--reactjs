@@ -151,7 +151,7 @@ const getProjectsData = () => {
       description:
         'This app displays a variety of restaurant data available via the Dicoding API. This app implements PWA, making it very user-friendly when used on mobile devices. This app was bulid pure using JavaScript and CSS.',
       github: 'https://github.com/andiparis/in-resto--javascript',
-      demo: 'https://indonesiarestaurant.netlify.app',
+      demo: null,
       img: '/assets/images/p-inresto.jpg',
     },
     {
