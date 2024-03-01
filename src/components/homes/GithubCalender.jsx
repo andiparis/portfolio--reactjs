@@ -5,7 +5,7 @@ import { Row } from 'react-bootstrap';
 function GithubCalender() {
   return (
     <Row
-      className="col-md-10 justify-content-center m-auto text-white"
+      className="col-md-10 justify-content-center m-auto text-white text-center"
       style={{ paddingBottom: '50px' }}
     >
       <GitHubCalender
