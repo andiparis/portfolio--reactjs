@@ -1,3 +1,51 @@
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 2rem !important;
+    font-size: 1.4rem !important;
+    background-color: #012519 !important;
+  }
+
+  .navbar-nav .nav-item a::after {
+    display: none !important;
+  }
+
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+    font-weight: 500 !important;
+    position: absolute !important;
+  }
+
+  .Typewriter__cursor {
+    display: none !important;
+  }
+
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+
+  .about-img {
+    padding-top: 0 !important;
+  }
+
+  .resume-left {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .resume-right {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
 @media (max-width: 480px) {
   .home-about-body {
     margin-right: 0.5rem !important;
