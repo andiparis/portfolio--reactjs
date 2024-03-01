@@ -10,6 +10,7 @@ function GithubCalender() {
     >
       <GitHubCalender
         username="andiparis"
+        colorScheme="light"
         blockSize={16}
         blockMargin={7}
         errorMessage="Fetching GitHub data failed!"
