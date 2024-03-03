@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Container, Nav, Navbar as NavBar } from 'react-bootstrap';
 import { AiOutlineHome, AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { CgFileDocument } from 'react-icons/cg';
-import logo from '../../assets/icons/logo.png';
 
 function Navbar() {
   const [expandNav, updateExpandNav] = useState(false);
@@ -30,7 +29,11 @@ function Navbar() {
     >
       <Container>
         <NavBar.Brand href="/" className="d-flex">
-          <img src={logo} alt="logo" className="img-fluid logo" />
+          <img
+            src="https://i.imgur.com/1NrSGCZ.png"
+            alt="logo"
+            className="img-fluid logo"
+          />
         </NavBar.Brand>
         {/* When the navbar toggle is clicked, change the expandNav value to true or false */}
         <NavBar.Toggle

@@ -102,7 +102,7 @@ const getProjectsData = () => {
         'The accounting app as the name suggests, provides features that can help manage accounting transactions. In this app, user can also print every existing report. This app was built using CodeIgniter and STISLA templates.',
       github: 'https://github.com/andiparis/accountant-app--codeigniter4',
       demo: null,
-      img: '/assets/images/p-accountant.jpg',
+      img: 'https://i.imgur.com/l3Kft1H.jpg',
     },
     {
       id: 2,
@@ -112,7 +112,7 @@ const getProjectsData = () => {
         'This app can help manage goods in the warehouse, such as stock management or delivery of goods. This app was created using Laravel to build a RESTful API and ReactJS to build the UI with the help of the Material Dashboard template.',
       github: 'https://github.com/andiparis/inventory-app-fe--reactjs',
       demo: null,
-      img: '/assets/images/p-inventory.jpg',
+      img: 'https://i.imgur.com/G8BDyEr.jpg',
     },
     {
       id: 3,
@@ -122,7 +122,7 @@ const getProjectsData = () => {
         'This is a news website. In here users can search for articles using keyword, category, or author. Users who have an account can manage the articles they write. This web was built using Laravel and Bootstrap.',
       github: 'https://github.com/andiparis/blogs-app--laravel8',
       demo: null,
-      img: '/assets/images/p-blogs.jpg',
+      img: 'https://i.imgur.com/EPJqkus.jpg',
     },
     {
       id: 4,
@@ -132,7 +132,7 @@ const getProjectsData = () => {
         'This app provides real-time weather forecast information from OpenWeather API. This app was built together with my friends using ReactJS. This app also implements PWA so that it is easier for users to use.',
       github: 'https://github.com/andiparis/know-your-weather--development',
       demo: 'https://knowyourweather-app.netlify.app',
-      img: '/assets/images/p-know-your-weather.jpg',
+      img: 'https://i.imgur.com/3CnwwoT.jpg',
     },
     {
       id: 5,
@@ -142,7 +142,7 @@ const getProjectsData = () => {
         'MyCasir is an app for managing sales transactions in a shop. In the app, several features are available for managing goods and of course the sales transactions themselves. This app was created using CodeIgniter and AdminLTE template.',
       github: 'https://github.com/andiparis/mycasir2--codeigniter3',
       demo: null,
-      img: '/assets/images/p-pos.jpg',
+      img: 'https://i.imgur.com/BRTFdKP.jpg',
     },
     {
       id: 6,
@@ -152,7 +152,7 @@ const getProjectsData = () => {
         'This app displays a variety of restaurant data available via the Dicoding API. This app implements PWA, making it very user-friendly when used on mobile devices. This app was bulid pure using JavaScript and CSS.',
       github: 'https://github.com/andiparis/in-resto--javascript',
       demo: null,
-      img: '/assets/images/p-inresto.jpg',
+      img: 'https://i.imgur.com/3mADTPD.jpg',
     },
     {
       id: 7,
@@ -162,7 +162,7 @@ const getProjectsData = () => {
         'SIP-BSM is management training event app. In this app, users can manage their own training activities or training requests from the community. This app was built using CodeIgniter and AdminLTE template.',
       github: 'https://github.com/andiparis/sip-bsm--codeigniter3',
       demo: null,
-      img: '/assets/images/p-sip-bsm.jpg',
+      img: 'https://i.imgur.com/eGLeabI.jpg',
     },
     {
       id: 8,
@@ -172,7 +172,7 @@ const getProjectsData = () => {
         'This is a notes app, which uses Dicoding API to perform CRUD operations. This notes app is intended for personal use, so to be able to write a note users need to have a registered account. This app was built using ReactJS',
       github: 'https://github.com/andiparis/personal-notes-app--reactjs',
       demo: null,
-      img: '/assets/images/p-notes.jpg',
+      img: 'https://i.imgur.com/rcSybql.jpg',
     },
   ];
 };
