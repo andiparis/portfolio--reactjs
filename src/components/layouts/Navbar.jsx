@@ -33,6 +33,7 @@ function Navbar() {
             src="https://i.imgur.com/1NrSGCZ.png"
             alt="logo"
             className="img-fluid logo"
+            crossOrigin="anonymous"
           />
         </NavBar.Brand>
         {/* When the navbar toggle is clicked, change the expandNav value to true or false */}
