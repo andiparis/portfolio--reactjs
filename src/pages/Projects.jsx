@@ -17,7 +17,7 @@ function Projects() {
         <Row className="justify-content-center pb-2">
           {projects.map((project, index) => (
             <Col key={index} md={6} xs={12} className="project-card">
-              <ProjectCard key={index} project={project} />
+              <ProjectCard key={index} {...project} />
             </Col>
           ))}
         </Row>
